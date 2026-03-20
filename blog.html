@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog • Minh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">MINH<span style="color:var(--primary-color)">.</span></a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="index.html#about">Giới thiệu</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="section-padding" style="padding-top: 150px; text-align: center;">
+        <div class="container">
+            <h1 class="fade-in" style="font-size: 3rem; margin-bottom: 1rem;">Góc chia sẻ</h1>
+            <p class="fade-in" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Nơi tôi viết về lập
+                trình, thiết kế và hành trình phát triển bản thân.</p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container">
+            <!-- Search Bar Simulation -->
+            <div class="fade-in" style="margin-bottom: 3rem; display: flex; justify-content: center;">
+                <div style="position: relative; width: 100%; max-width: 500px;">
+                    <input type="text" placeholder="Tìm kiếm bài viết..."
+                        style="width: 100%; padding: 1rem 1rem 1rem 3rem; background: var(--card-bg); border: 1px solid var(--border-color); color: white; border-radius: 50px; outline: none;">
+                    <i class="fas fa-search"
+                        style="position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%); color: var(--text-muted);"></i>
+                </div>
+            </div>
+
+            <div class="grid-3" id="blog-grid">
+                <!-- Posts will be repeated here to simulate a fuller blog -->
+                <article class="card fade-in">
+                    <div class="card-image"
+                        style="background: linear-gradient(45deg, #222, #333); display: grid; place-items: center; color: #555;">
+                        <i class="fas fa-code fa-2x"></i></div>
+                    <div class="card-date">12 Tháng 1, 2026</div>
+                    <h3>Tối ưu hóa Javascript</h3>
+                    <p>Các kỹ thuật để giảm thiều thời gian load và tăng trải nghiệm người dùng.</p>
+                    <a href="article.html" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="card fade-in">
+                    <div class="card-image"
+                        style="background: linear-gradient(45deg, #222, #333); display: grid; place-items: center; color: #555;">
+                        <i class="fas fa-laptop-code fa-2x"></i></div>
+                    <div class="card-date">10 Tháng 1, 2026</div>
+                    <h3>Lộ trình học Web Development 2026</h3>
+                    <p>Hướng dẫn chi tiết cho người mới bắt đầu muốn trở thành Fullstack Developer.</p>
+                    <a href="article.html" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="card fade-in">
+                    <div class="card-image"
+                        style="background: linear-gradient(45deg, #222, #333); display: grid; place-items: center; color: #555;">
+                        <i class="fas fa-moon fa-2x"></i></div>
+                    <div class="card-date">05 Tháng 1, 2026</div>
+                    <h3>Tại sao Dark Mode lại quan trọng?</h3>
+                    <p>Phân tích tâm lý học màu sắc và trải nghiệm người dùng trong thiết kế giao diện tối.</p>
+                    <a href="article.html" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="card fade-in">
+                    <div class="card-image"
+                        style="background: linear-gradient(45deg, #222, #333); display: grid; place-items: center; color: #555;">
+                        <i class="fas fa-user-astronaut fa-2x"></i></div>
+                    <div class="card-date">01 Tháng 1, 2026</div>
+                    <h3>Xây dựng thương hiệu cá nhân</h3>
+                    <p>Cách tạo ấn tượng và phát triển sự nghiệp thông qua việc chia sẻ kiến thức.</p>
+                    <a href="article.html" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="card fade-in">
+                    <div class="card-image"
+                        style="background: linear-gradient(45deg, #222, #333); display: grid; place-items: center; color: #555;">
+                        <i class="fab fa-css3-alt fa-2x"></i></div>
+                    <div class="card-date">28 Tháng 12, 2025</div>
+                    <h3>CSS Grid vs Flexbox</h3>
+                    <p>Khi nào nên dùng Grid, khi nào nên dùng Flexbox? Cùng tìm hiểu nhé.</p>
+                    <a href="article.html" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="card fade-in">
+                    <div class="card-image"
+                        style="background: linear-gradient(45deg, #222, #333); display: grid; place-items: center; color: #555;">
+                        <i class="fas fa-terminal fa-2x"></i></div>
+                    <div class="card-date">20 Tháng 12, 2025</div>
+                    <h3>Làm chủ Terminal</h3>
+                    <p>Những câu lệnh CLI cơ bản mà mọi lập trình viên đều nên biết.</p>
+                    <a href="article.html" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="logo">MINH.</a>
+                    <p style="color: #888; margin-top: 1rem;">Chia sẻ kiến thức, kết nối đam mê.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Liên kết</h4>
+                    <a href="index.html">Trang chủ</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="index.html#about">Giới thiệu</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Mạng xã hội</h4>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-github"></i> Github</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Minh. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
